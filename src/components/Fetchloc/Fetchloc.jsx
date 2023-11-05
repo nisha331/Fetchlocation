@@ -15,7 +15,7 @@ function Fetchloc() {
 
     try {
       const res = await fetch(
-        `http://api.geonames.org/postalCodeLookupJSON?postalcode=${zipCode}&username=nisha_codes`
+        `https://api.geonames.org/postalCodeLookupJSON?postalcode=${zipCode}&username=nisha_codes`
       );
 
       if (res.ok) {
